@@ -1,0 +1,75 @@
+{
+    "Appetizers": [
+        
+        {
+          "Name": "Wontons",
+          "Ingredients": ["Wontonwraps", "Shrimp", "Guacamole"],
+          "Description": "The first appetizer is a shrimp wonton"
+        },
+        {
+            "Name": "Queso",
+            "Ingredients": ["Cheese", "Chips", "Jalapenos"],
+            "Description": "Second appetizer being served will be a queso with chips to dip"
+        }
+    ],
+    "Cold Sandwiches": [ 
+        
+    {
+        "Name": "BLT Sandwich",
+        "Ingredients": ["Bread", "Bacon", "Lettuce"],
+        "Description": "First type of sandwich being served"
+     },
+     
+     
+     {
+        "Name": "Panini",
+        "Ingredients":["Bread", "Cheese", "Tomato"],
+        "Description": "Sandwich can be eaten cold vs warm"
+
+      }
+
+    ],
+
+    "Hot Sandwiches": [
+        {
+            "Name": "Philly Sandwich",
+            "Ingredients": ["Steak", "Cheese", "Bread", "Peppers"],
+            "Description": "Choice number 1"
+        },
+
+        {
+            "Name": "Grilled Cheese",
+            "Ingredients": ["Cheese", "Bread"],
+            "Description": "Choice number 2 "
+        }
+    ],
+
+    "Desserts": [
+        {
+            "Name": "Banana Pudding",
+            "Ingredients": ["Banana", "Pudding"],
+            "Description": "Favorite dessert"
+        },
+        {
+            "Name": "Ice cream",
+            "Ingredients": ["Vanilla", "Strawberry", "Cones"],
+            "Description": "Dessert for the kids"
+        }
+    ],
+    "Drinks": [
+         { 
+            "Name": "Soda",
+            "Ingredients": ["coke", "sprite", "fanta"],
+            "Description": "Soda options are for everyone"
+
+    },
+    {
+        "Name": "Lemonades",
+        "Ingredients": ["Strawberry", "Original", "Cherry"],
+        "Description": "Drinks will be cold"
+    }
+]
+
+
+
+}

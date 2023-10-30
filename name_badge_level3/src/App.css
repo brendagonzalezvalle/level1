@@ -1,0 +1,109 @@
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+
+/* badgefields styling */
+#form--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 250px;
+    margin-right: 40px;
+    border-style: solid;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    max-width: 900px;
+    min-width: 500px;
+}
+.left--fields{
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.right--fields{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#form--textarea{
+    grid-column: 1/3;
+    font-family: sans-serif;
+    
+}
+
+#form--button{
+    grid-column: 1/3;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+
+/* badge styling */
+
+#badge--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 400px;
+    margin-right: 40px;
+    border-style: solid;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 405px;
+    max-width: 600px;
+    min-width: 600px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    background-color: ghostwhite;
+    border-style: ridge;
+}
+
+#badge--title {
+    grid-column: 1/3;
+}
+
+#badge--name {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.badge--middle {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+img {
+
+    height: 100px;
+    grid-column: 1/3;
+    padding-left: 130px;
+
+
+}
+
+p {
+    grid-column: 1/3;
+}
+
+#badge--logo {
+    margin-left: 116px;
+}
+
+/* Header component styling */
+
+#header--top {
+    height: 125px;
+    margin-top: 0px;
+    background-color: lavender;
+    border-top: 20px;
+    background-color: lavender;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+
+}

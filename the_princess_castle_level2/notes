@@ -1,0 +1,60 @@
+
+
+// class Dog {
+//     constructor (age, name, soundsLike) {
+//         this.age = age
+//         this.name = name
+//         this.soundsLike = soundsLike
+
+//     }
+
+//     bark (){
+//         console.log("barkkkkk roof")
+//     }
+//     walk(){
+//         console.log("runs fast")
+//     }
+//     soundsLike(){
+//         console.log(this.soundsLike)
+//     }
+
+// }
+
+// class Cat extends Dog {
+//     constructor(age, name, color){
+//         super(age , name, soundsLike)
+//         this.color = color
+
+//     }
+// }
+
+
+// const henny = new Dog ("1", "Henny", "Brown", "Ruff")
+// const chubby = new Cat ("3", "Chubby", "Black")
+// // henny.bark()
+// // henny.walk()
+// henny.soundsLike()
+
+
+// Requirements:
+
+// - Create a class for a player that has the following properties:
+//
+// - `gotHit` of type `function` - this is called whenever the player is hit by an enemy. `gotHit()` will set the `status` property accordingly. (Statuses go from "Powered Up" to "Big" to "Small" to "Dead".)
+// - `gotPowerup` of type `function` - called when a powerup is received and sets the status accordingly. (Statuses go from "Small" to "Big" to "Powered Up". If you are Powered Up and it hits this function, you get a star)
+
+// X- `print` of type `function` - prints to the console the name, totalCoins, status, and star properties. Make sure you make this look nice such as:
+//     - Name: Luigi,
+//     - Status: Small, etc, etc
+
+// Use that class to create the object.
+
+// Create a [random range function](http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range) that returns either 0, 1, or 2.
+
+// If the value is 0 call the `gotHit()` function on the object.If the value is 1 call the `gotPowerup()` function on the objectIf the value is 2 call the `addCoin()` function
+
+// Then call the print method on the object.
+
+// Now put the random range function inside a `setInterval` function that ends after the player is dead
+
+// The end product will look something like this:

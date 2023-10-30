@@ -1,0 +1,13 @@
+.app {
+    background-color: rgb(222, 188, 147);
+    height: fit-content;
+    margin-bottom: 27px;
+    max-width: 500px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-family: monospace;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href = "style1.css"/>
+
+<h3 id = "header1"> Please fill out your travel form below! </h3>
+    </head>
+
+    <body>
+
+        <form name = "flightForm">
+            <div class="titles">
+                First Name: <input type = "text" placeholder="Enter First Name" name = "nameField1" >
+            </div>
+
+             <div class="titles" >
+                Last Name: <input type = "text" placeholder=" Enter Last Name" name = "nameField2" >
+             </div>
+
+             <div class="titles" >
+             Age: <input type = "number" name = "ageField" placeholder="Enter Age ">
+            </div>
+
+            <div class="titles" >
+            Male: <input type = "radio" name = "genderField" value="Male">
+            </div> 
+
+
+            <div class="titles" >
+            Female: <input type = "radio" name = "genderField" value= "Female">
+
+            </div class="titles" >
+
+
+             <div class="titles" >
+             Do you have any diet restrictions select all that apply?
+
+             Peanuts <input type = "checkbox" name = "dietRestrictions" value = "Peanuts">
+             Vegetarian <input type = "checkbox" name = "dietRestrictions" value = "Vegetarian">
+             Lactose <input type = "checkbox" name = "dietRestrictions" value = "Lactose">
+
+            </div>
+
+
+            <div class="titles" >
+            Select the location you are traveling too?
+             <select name="locations">
+                 <option value = "Mexico"> Mexico </option>
+                 <option value = "Texas"> Texas </option>
+                 <option value = "Washington"> Washington</option>
+
+             </select>
+            </div>
+
+
+            <div>
+             
+                <button id="buttonForForm" class="titles" > Submit </button>
+
+            </div>
+
+
+        </form>
+
+    </body>
+
+    <script src = "app.js"></script>
+
+</html>

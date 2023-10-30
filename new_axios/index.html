@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 id = "titleTodoList"> To Do List! </h2>
+    <div class="inputDescriptions"> 
+        <div id = "firstSentenceForNewTodo">
+            Enter any new todo items you may have for the day down below. 
+        </div>
+        
+            <div class = "descriptionTitles">
+
+                Title: "Todo Item Title" 
+
+            </div>
+            <div class = "descriptionTitles">
+
+                Price: "Enter a price amount if your todo costs $$"
+            </div>
+            <div class = "descriptionTitles">
+                Description: "Enter a description of your todo!"
+
+            </div>
+            <div class = "descriptionTitles">
+                Image Url: Enter a URL if you would like to attach a picture to your todo item"
+
+            </div>
+
+    </div>
+
+    <form id = "form" name = "addNewToDoForm" class="flexcontainerForForm">
+        <input type="text" name="title" placeholder="Title">
+        <input type="text" name="price" placeholder="Price">
+        <input type = "text" name ="description" placeholder="Description">
+        <input type = "text" name="imgUrl" placeholder="Image Url ">
+        <button name="button1" id="submitButtonForForm"> Click me to Submit </button>
+
+        <div id="todoList"> Todo List: </div>
+        
+
+
+    </form>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</body>
+
+
+
+
+
+
+<script src= "app.js" ></script>
+
+
+</html>

@@ -1,0 +1,58 @@
+// const arr = [1,2,3,4];
+
+// const mapFunc = arr.map(function(number){
+//     return number * 2 - 1;
+    
+// })
+// console.log(mapFunc)
+// // => [2,3,4,5]
+
+// var numbers = [12,4,56,27, 30];
+
+// const numberFunc = numbers.filter(function(number){
+//     return number <  -25;
+// })
+// console.log(numberFunc)
+// // => [56, 27]
+// var words = ['bat', 'pineapple', 'drugs', 'zebra', 'ghost'];
+
+// 
+
+// \
+var numbers = [12,55,5,62,18,53]
+
+const findFunc = numbers.find(function(number){
+    return number > 50
+})
+console.log(findFunc)
+// => 62
+
+
+
+ // 4) Given an array of people objects, return a new array that has filtered out all those who don't belong to the club. 
+  
+  function peopleWhoBelongToTheIlluminati(arr){
+    return arr.filter(function(belong){
+      
+      if(belong.member == "false"){
+        
+        return result = belong
+        console.log(result)
+
+      }
+
+
+    })
+  }
+  // test
+  console.log(peopleWhoBelongToTheIlluminati([
+      { name: "Angelina Jolie", member: true },
+      { name: "Eric Jones", member: false },
+      { name: "Paris Hilton", member: true },
+      { name: "Kayne West", member: false },
+      { name: "Bob Ziroll", member: true }
+  ]));
+  // =>
+  //[ { name: 'Angelina Jolie', member: true },
+  //  { name: 'Paris Hilton', member: true },
+  //  { name: 'Bob Ziroll', member: true } ]

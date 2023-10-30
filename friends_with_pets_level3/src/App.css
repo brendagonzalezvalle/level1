@@ -1,0 +1,32 @@
+/* .friend--container {
+    background-color: aquamarine;
+} */
+body {
+    font-family: fantasy;
+    font-size: medium;
+}
+.pet--container{
+    background-color: gray;
+}
+
+.friendlist--name{
+   
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.friendlist--age {
+   
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.friendlist--container {
+    /* background-color: black; */
+    margin: 20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-block-width: initial;
+    border-color: burlywood;
+}

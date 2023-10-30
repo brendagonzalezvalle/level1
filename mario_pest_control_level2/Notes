@@ -1,0 +1,16 @@
+<!-- ### **Project Requirements**
+
+The website must contain the following:
+
+X- A list displaying each baddie by type. Each list item must:
+X Have baddie image
+X- Have baddie name
+X Show price of that baddie
+X- Have an input box to enter the total caught of that type
+X A total price at the bottom that adds sums the total cost of baddies caught
+X *(must use Javascript for this math - no hard coded values)*
+x A footer showing:
+X- Mario's email address
+x Mario's company website url
+X- Mario's physical address
+x A large title at the top of the page entitled "Mario Pest Control" -->

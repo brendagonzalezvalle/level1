@@ -1,0 +1,70 @@
+html {
+    background-color: lavender;
+}
+
+/* input {
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 55px;
+    margin-left: 4;
+} */
+
+#form > input {
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 55px;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    /* margin-right: 56px; */
+    margin-bottom: 5;
+}
+
+div {
+   /* margin-left: 47px; */
+   justify-content: inherit;
+}
+
+#firstSentenceForNewTodo {
+    margin-left: 6px;
+    font-style: inherit;
+}
+
+.descriptionTitles {
+    font-size: small;
+    font-family: auto;
+    margin-left: -9px;
+    padding: 15px;
+}
+#form {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#submitButtonForForm {
+    
+    margin-right: 632px;
+    display: flex;
+    margin-left: 54px;
+}
+
+#titleTodoList{
+    display: block;
+    text-align: center;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: xx-large;
+    justify-content: space-between;
+}
+
+
+.flexcontainerForForm {
+    color: rgb(35, 61, 84);
+
+}

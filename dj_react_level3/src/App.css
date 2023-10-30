@@ -1,0 +1,40 @@
+.topgrid--container {
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    display: grid;
+    height: 445px;
+    width: 445px;
+    
+
+
+}
+
+
+.topgrid--container > div {
+    
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: burlywood; */
+
+}
+
+/* Button styling  */
+
+.dj-buttons {
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.dj-buttons button {
+    width: 150px;
+    text-align: center;
+
+}
+
+.right-blue {
+    margin-top: 10px;
+}
+
+
